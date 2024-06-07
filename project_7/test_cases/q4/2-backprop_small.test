@@ -1,0 +1,18 @@
+class: "GradeClassifierTest"
+classifierModule: "neural_pacman"
+classifierClass: "NeuralClassifierPacman"
+
+automaticTuning: "True"
+featureFunction: "neuralFeatureExtractorPacman"
+
+max_iterations: "10000"
+
+datasetName: "smallContestData"
+evalInSample: "True"
+early_stopping: "20"
+learning_rate: "1e-6"
+hidden_neurons: "15"
+
+exactOutput: "False"
+accuracyScale: "1.0"
+accuracyThresholds: "75"

@@ -1,0 +1,15 @@
+class: "GradeClassifierTest"
+classifierModule: "neural_pacman"
+classifierClass: "ScikitNeuralClassifierPacman"
+
+automaticTuning: "True"
+featureFunction: "neuralFeatureExtractorPacman"
+
+max_iterations: "10000"
+
+datasetName: "bigFoodData"
+hidden_neurons: "40"
+
+exactOutput: "False"
+accuracyScale: "0.5"
+accuracyThresholds: "80"

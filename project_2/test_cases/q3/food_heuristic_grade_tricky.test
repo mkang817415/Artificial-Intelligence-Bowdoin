@@ -1,0 +1,19 @@
+class: "FractionalHeuristicGrade"
+
+heuristic: "foodHeuristic"
+searchProblemClass: "FoodSearchProblem"
+layoutName: "trickySearch"
+layout: """
+%%%%%%%%%%%%%%%%%%%%
+%.           ..%   %
+%.%%.%%.%%.%%.%% % %
+%        P       % %
+%%%%%%%%%%%%%%%%%% %
+%.....             %
+%%%%%%%%%%%%%%%%%%%%
+"""
+# One half point always, an extra half point for each
+# threshold passed.
+basePoints: "0.5"
+gradingThresholds: "15000 12000 9000"
+
